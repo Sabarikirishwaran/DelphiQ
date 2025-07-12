@@ -3,7 +3,10 @@
 Welcome to the **DelphiQ** GitHub repository. This project contains our final deliverables for two independent tracks in the 2025 Global Quantum Challenge:
 
 - **MITRE Quantum Infrastructure Challenge (Materials Chemistry)**
+  [<img src="https://qbraid-static.s3.amazonaws.com/logos/Launch_on_qBraid_white.png" width="150">](https://account.qbraid.com?gitHubUrl=https://github.com/Sabarikirishwaran/DelphiQ)
+  
 - **World Bank Quantum Climate Risk Challenge (Parametric Insurance)**
+  [<img src="https://qbraid-static.s3.amazonaws.com/logos/Launch_on_qBraid_white.png" width="150">](https://account.qbraid.com?gitHubUrl=https://github.com/LeaCasse/quantum-flood-forecasting)
 
 Each stream has its own README file here, containing:
 - File-specific documentation
