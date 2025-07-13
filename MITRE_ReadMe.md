@@ -24,9 +24,9 @@ All relevant files for this submission:
   — Fully annotated notebook implementing our QITE algorithm with Jordan–Wigner Hamiltonian encoding, active-space reduction, and cumulative energy output. Includes circuit block breakdown, qubit count, run parameters, convergence behavior, and correlation assessment.  
   *Maps to criteria:* Execution & results interpretation, reproducibility, environment configuration.
 
-**LUCJ.ipynb**
+- **LUCJ.ipynb**
 — Demonstrates Local Unitary Cluster Jastrow (LUCJ) ansatz construction for the phenanthrene-quinone fragment. Details qubit encoding (Jordan–Wigner), spin-orbital layout, ancilla-mediated interactions, and hardware-aware topology mapping, as well as SQD execution. Includes circuit depth, gate composition, and SQD
-*Maps to criteria:* Algorithm design, hardware-awareness, circuit construction, execution.
+  *Maps to criteria:* Algorithm design, hardware-awareness, circuit construction, execution.
 
 ---
 
