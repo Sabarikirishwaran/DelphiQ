@@ -24,6 +24,10 @@ All relevant files for this submission:
   — Fully annotated notebook implementing our QITE algorithm with Jordan–Wigner Hamiltonian encoding, active-space reduction, and cumulative energy output. Includes circuit block breakdown, qubit count, run parameters, convergence behavior, and correlation assessment.  
   *Maps to criteria:* Execution & results interpretation, reproducibility, environment configuration.
 
+**LUCJ.ipynb**
+— Demonstrates Local Unitary Cluster Jastrow (LUCJ) ansatz construction for the phenanthrene-quinone fragment. Details qubit encoding (Jordan–Wigner), spin-orbital layout, ancilla-mediated interactions, and hardware-aware topology mapping, as well as SQD execution. Includes circuit depth, gate composition, and SQD
+*Maps to criteria:* Algorithm design, hardware-awareness, circuit construction, execution.
+
 ---
 
 ## 📌 Phase 3 Criteria Mapping
@@ -32,7 +36,7 @@ All relevant files for this submission:
 |------------------------------------------------|-----------------------------------------------------------------------------------------|
 | **1. Simulation Execution & Results**          | - *QITE…ipynb*: simulated QITE on the phenanthrene‑quinone fragment. <br> - *React/Stability…ipynb* + *plots static.ipynb*: computed HOMO–LUMO gaps, Fukui functions, reactivity trends, energy diagrams. |
 | **2. Reproducibility & Traceability**         | All notebooks are annotated with: <br> – Quantum circuit diagrams, Hamiltonian encodings (JW mapping), <br> – QITE parameters (`dt`, `max_cycles`, convergence), <br> – Design rationales (error mitigation, active-space selection). |
-| **3. Quantum Advantage & Benchmarking**       | - *Phenanthrene…ipynb*: includes classical DFT comparisons (HOMO–LUMO, Fukui). <br> - *QITE…ipynb*: shows correlation energy improvements vs HF, discusses active-space relevance. |
+| **3. Quantum Advantage & Benchmarking**       | - *Phenanthrene…ipynb*: includes classical DFT comparisons (HOMO–LUMO, Fukui). <br> *LUCJ.ipnb*: includes SQD execution and qubit encoding. <br> - *QITE…ipynb*: shows correlation energy improvements vs HF, discusses active-space relevance. |
 | **4. Execution Environment & Challenges**     | • Qubits: shown via `2 × n_active_orbitals` <br> • Circuit depth & convergence: logged iteration behavior in QITE notebook <br> • Simulator used: Tangelo statevector backend <br> • Runtime stats and parameter settings embedded in notebook comments. |
 | **5. Industrial Relevance & Future Directions** | Detailed discussion in *Phenanthrene Reactivity…ipynb* and *plots static.ipynb* and our Phase 3 Proposal and *Maths formalism.pdf*, linking carbonyl formation data to asphalt-aging mechanisms, binder design, and future modeling pathways. |
 
